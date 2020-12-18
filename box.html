@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boxes</title>
+    <style>
+        .Boxes {
+            margin: 10px;
+            border: 5px solid green;
+            padding: 20px;
+            height: 100px;
+            background-color: red;
+            width: 49%;
+            display: inline-block;
+            box-sizing: border-box;
+            text-align: center;
+            border-radius: 50%;
+
+
+            /* height: 100px;
+            background-color: red;
+            width: 49%;  */
+
+        }
+
+        .box1 {
+            float: left;
+        }
+
+        .box2 {
+            float: right;
+        }
+
+        em:hover {
+            color: blue;
+            font-size: 40px;
+        }
+
+        .increase-width:focus {
+            width: 200px;
+            background-color: aqua;
+            height: 100px;
+        }
+
+        .square {
+            width: 100px;
+            height: 100px;
+            background-color: gold;
+            border-radius: 50%;
+            margin-top: 100px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <input class="increase-width" type="text" name="name" />
+        <div class="Boxes box1">
+            <em>Hello</em>
+
+        </div>
+        <div class="Boxes box2">
+            <em>Hi</em>
+
+        </div>
+        <div class="square">
+
+        </div>
+    </div>
+</body>
+
+</html>

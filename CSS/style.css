@@ -1,0 +1,33 @@
+body {
+  background-color: #c1c0b9;
+}
+
+.divElement {
+  display: inline;
+}
+
+#headings {
+  display: block;
+  color: #15347c !important;
+}
+
+.headings {
+  color: #253b6e !important;
+}
+
+.anchor-heading {
+  color: #253b6e;
+  text-decoration: none;
+}
+
+.ul-padding {
+  padding-inline-start: 100px;
+}
+
+.square-ul {
+  list-style-type: square;
+}
+
+.circle-ul {
+  list-style-type: circle;
+}
